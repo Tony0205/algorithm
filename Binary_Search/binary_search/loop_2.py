@@ -3,7 +3,7 @@ n, target = map(int, input().split())
 arr = list(map(int, input().split()))
 
 
-def bn_search_using_loop():
+def b_search():
     start = 0
     end = n - 1
 
@@ -13,6 +13,7 @@ def bn_search_using_loop():
         if arr[mid] == target:
             return mid + 1
         elif arr[mid] > target:
+            # 오른쪽을 날린다.
             end = mid - 1
         else:
             start = mid + 1
@@ -20,6 +21,6 @@ def bn_search_using_loop():
     return None
 
 
-result = bn_search_using_loop()
+result = b_search()
 
 print(result)
