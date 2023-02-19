@@ -2,6 +2,8 @@ n, target = map(int, input().split())
 
 arr = list(map(int, input().split()))
 
+arr.sort()
+
 
 def bn_search_using_loop():
     start = 0
