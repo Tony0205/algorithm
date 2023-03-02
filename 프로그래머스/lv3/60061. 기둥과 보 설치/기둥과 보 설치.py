@@ -16,9 +16,6 @@ def possible(answer):
 def solution(n, build_frame):
     answer = []
     
-    build = [[0] * (n + 1) for _ in range(n + 1)]
-    
-    # print(build)
     for frame in build_frame:
         x, y, stuff, operate = frame
         # print(x, y, a, b)
