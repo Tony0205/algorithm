@@ -12,12 +12,11 @@ for r in range(n):
         elif data[c] == 2:
             chicken.append((r, c))
 
-print(chicken, house)
+# print(chicken, house)
 
 # 모든 치킨집 중에서 m개의 치킨집을 뽑는 조합 계산
 candidates = list(combinations(chicken, m))
-
-print(candidates)
+# print(candidates)
 
 
 # 치킨 거리의 합을 계산하는 함수
@@ -39,7 +38,7 @@ def get_sum(candidate):
 # 치킨 거리의 합의 최소를 찾아 출력
 result = 1e9
 for candidate in candidates:
-    print("candidate: ", candidate)
+    # print("candidate: ", candidate)
     result = min(result, get_sum(candidate))
 
 print(result)
