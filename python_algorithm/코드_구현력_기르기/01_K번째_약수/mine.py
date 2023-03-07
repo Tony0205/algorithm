@@ -1,6 +1,5 @@
 import sys
-sys.stdin = open(
-    "/Users/leeseonghan/mine-project/algorithm/python_algorithm/코드_구현력_기르기/01_K번째_약수/input.txt", "rt")
+sys.stdin = open("input.txt", "rt")
 
 n, k = map(int, input().split())
 
