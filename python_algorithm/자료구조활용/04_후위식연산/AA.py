@@ -28,3 +28,5 @@ for x in a:
 
 
 print(stack.pop())
+
+# 굿... 답안과 100% 일치!
