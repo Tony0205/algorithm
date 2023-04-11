@@ -3,8 +3,8 @@ import sys
 # open_dir = r"C:\Users\cmh02\OneDrive\바탕 화면\Algorithm\python_algorithm\자료구조활용\04_후위식연산\in1.txt"
 # sys.stdin = open(open_dir, "rt")
 
-a = input()
-stack = []
+a = input() # 입력
+stack = [] # 숫자가 들어가는 스택
 
 for x in a:
     if x.isdecimal():
