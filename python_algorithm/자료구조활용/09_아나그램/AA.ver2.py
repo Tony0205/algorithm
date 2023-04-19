@@ -22,7 +22,7 @@ for key in str1.keys():
     if key in str2.keys():
         if str1[key] != str2[key]:  # value값이 같지 않으면
             print("NO")
-            break
+            break        
     else:
         print("NO")
         break
